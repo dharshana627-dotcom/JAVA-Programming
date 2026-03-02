@@ -13,7 +13,6 @@ public class Vehicle{
         String c1="Clean";
         String c2="Minor-Violations";
         String c3="Major-Violations";
-        // sc.nextLine();
         String d = sc.nextLine();
         String d1="Basic";
         String d2="Standard";
@@ -81,4 +80,5 @@ public class Vehicle{
         System.out.println("Risk Category: "+rc);
 
     }
+
 }
