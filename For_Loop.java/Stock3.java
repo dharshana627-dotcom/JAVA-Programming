@@ -35,10 +35,7 @@ public class Stock3 {
             System.out.println("Minimum Stock: "+minstock);
             System.out.println("Status: "+status);
             System.out.printf("Reorder Quantity: %.2f\n",quantity);
-            System.out.println();
-
         }
-
         System.out.println("Total Products: "+n);
         System.out.println("Low Stock Items: "+lowCount);
         System.out.println("Critical Items: "+critCount);
@@ -46,3 +43,4 @@ public class Stock3 {
 
     }
 }
+
