@@ -1,0 +1,20 @@
+import java.util.*;
+public class Table1{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int r=sc.nextInt();
+        int c=sc.nextInt();
+        System.out.println("Multiplication Table ("+r+" x "+c+"):");
+        for(int j=1;j<=c;j++){
+            System.out.print(j+" ");
+        }
+        System.out.print("\n");
+        for(int i=1;i<=r;i++){
+            System.out.print(i+" ");
+            for(int j=1;j<=c;j++){
+                System.out.print(i*j+" ");
+            }
+            System.out.print("\n");
+        }
+    }
+}
